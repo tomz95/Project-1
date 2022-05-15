@@ -1,0 +1,37 @@
+body {
+  background-image: url("assets/tile.jpg");
+  margin: 14px;
+  align-items: center;
+  text-align: center;
+  font-family: rugrets;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+form {
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  margin-left: 150px;
+  padding: 10px;
+  background-image: url("assets/formbg.jpg");
+  margin-bottom: 0.2rem;
+}
+
+#submit {
+  margin-left: 0px;
+  padding: 2px;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+@font-face {
+  font-family: rugrets;
+  src: url(rugratS/RugratS.ttf);
+}

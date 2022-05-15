@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <title>My Tasks Board</title>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      />
+      <script src="main.js" type="text/javascript"></script>
+      <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <h1>My Task Board</h1>
+      <div id="count"></div>
+      <div class="container">
+        <form>
+          <label>
+            <span>Task Name</span>
+            <input id="task" type="text" required/ >
+          </label>
+          <br />
+          <label>
+            <span>Date</span>
+            <input id="date" type="date" placeholder="Date" name="date"
+            required/ >
+            <br />
+            <span>Time</span>
+            <input id="time" type="time" placeholder="Time" name="Time"
+            required/ >
+          </label>
+          <br />
+          <input id="submit" type="submit" value="newNote" />
+        </form>
+        <div class="container">
+          <div class="noteContainer"></div>
+        </div>
+      </div>
+    </body>
+  </html>
+</html>
